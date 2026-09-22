@@ -1,0 +1,26 @@
+.trailer {
+    font-size: 15px;
+            color: grey;
+            margin-top: 8px;
+}
+
+nav {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+nav a {
+    color: #b8860b;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+hr.divider-gold {
+    border: none;
+    height: 3px;
+    background-color: gold;
+    margin: 10px auto;
+    width: 90%;
+}
