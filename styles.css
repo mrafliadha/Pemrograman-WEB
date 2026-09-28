@@ -1,7 +1,69 @@
-.trailer {
-    font-size: 15px;
-            color: grey;
-            margin-top: 8px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-hitam: #1a1a1a;
+    --color-putih: #ffffff;
+    --color-ungu: #8685ef;
+    --color-abu: #808080;
+    --text-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.navbar .navbar-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-box .menu {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar .navbar-box .menu li {
+    list-style-type: none;
+}
+
+.navbar .navbar-box .menu li a {
+    color: var(--color-abu);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar .navbar-box .menu li a:hover {
+    color: var(--color-ungu);
+}
+
+.content-container h2 {
+    padding: 0 0 25px 0;
+}
+
+.content-container p {
+    text-align: center;
+}
+
+.content-container a {
+    color: var(--color-hitam);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.content-container a:hover {
+    color: var(--color-ungu);
 }
 
 nav {
@@ -23,4 +85,37 @@ hr.divider-gold {
     background-color: gold;
     margin: 10px auto;
     width: 90%;
+}
+
+.poster-film .judul-tabel .trailer-film img {
+    padding: 9px 10px 4px 10px;
+    width: 200px;
+}
+
+.poster-film .judul-tabel .trailer-film table {
+    margin: 0 auto;
+}
+
+.poster-film .judul-tabel .trailer-film caption {
+    padding: 15px 25px 15px 25px;
+    background-color: var(--color-ungu);
+    color: var(--color-hitam);
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+}
+
+.poster-film .judul-tabel .trailer-film th {
+    padding: 10px 0 10px 0;
+    font-weight: 700;
+}
+
+.poster-film .judul-tabel .trailer-film a {
+    color: var(--color-hitam);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.poster-film .judul-tabel .trailer-film a:hover {
+    color: var(--color-ungu);
 }
