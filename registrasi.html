@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>XXI FILM - Registrasi Pelanggan</title>
+    </head>
+    <body>
+        <h1>Form Registrasi Pelanggan</h1>
+        <hr>
+
+        <form action="terimakasih.html" method="post">
+             
+            <h3>Data Diri</h3>
+
+            <label for="nama">Nama Lengkap : </label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap"><br><br>
+
+            <label for="email">Email : </label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan alamat email"><br><br>
+
+            <label for="password">Password : </label><br>
+            <input type="password" id="password" name="password" placeholder="Masukkkan password"><br><br>
+
+            <h3>Pilihan Paket</h3>
+
+            <label for="Paket">Pilih Paket Berlangganan : </label><br>
+            <select id="Paket" name="Paket">
+                <option value="basic">Basic</option>
+                <option value="standard">Standard</option>
+                <option value="premium">Premium</option>
+            </select><br><br>
+
+            <h3>Metode Pembayaran</h3>
+
+            <input type="radio" id="kartu" name="pembayaran" value="kartu" checked>
+            <label for="kartu">Kartu Debit/Kredit (Visa / Mastercard)</label><br>
+
+            <label for="nomor_kartu">&nbsp;&nbsp;&nbsp;&nbsp;Nomor Kartu : </label><br>
+            <input type="text" id="nomor_kartu" name="nomor_kartu" placeholder="0000 0000 0000 0000"><br><br>
+
+            <input type="radio" id="dompet" name="pembayaran" value="dompet">
+            <label for="dompet">Dompet Digital (GoPay / OVO / DANA)</label><br><br>
+
+            <input type="submit" value="Daftar Sekarang">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

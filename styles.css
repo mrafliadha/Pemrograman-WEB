@@ -119,3 +119,51 @@ hr.divider-gold {
 .poster-film .judul-tabel .trailer-film a:hover {
     color: var(--color-ungu);
 }
+
+.header-container {
+    position: relative;
+    text-align: center;
+}
+
+.header-container a {
+    padding: 10px 25px 10px 25px;
+    background-color: var(--color-putih);
+    text-decoration: none;
+    color: var(--color-hitam);
+    border-radius: 10px;
+    font-weight: 700;
+    bottom: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-container a:hover {
+    background-color: var(--color-ungu);
+    color: white;
+}
+
+.terimakasih-home {
+    text-align: center;
+}
+
+.terimakasih-home h1 {
+    font-size: 50px;
+    padding: 25px;
+}
+
+.terimakasih-home a {
+    padding: 10px 25px 10px 25px;
+    background-color: beige;
+    text-decoration: none;
+    color: var(--color-hitam);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    bottom: none;
+}
+
+.terimakasih-home a:hover {
+    background-color: var(--color-ungu);
+    color: white;
+}
